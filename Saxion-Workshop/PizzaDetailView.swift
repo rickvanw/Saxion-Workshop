@@ -45,10 +45,6 @@ struct PizzaDetailView: View {
 
 #Preview {
     PizzaDetailView(
-        pizza: Pizza(
-            name: "Margherita",
-            description: "Pizza with cheese",
-            imageName: "margherita"
-        )
+        pizza: MockData.pizzas.first!
     )
 }

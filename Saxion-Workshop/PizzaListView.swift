@@ -44,19 +44,5 @@ struct PizzaListView: View {
 }
 
 #Preview {
-    PizzaListView(
-        pizzas:
-            [
-                Pizza(
-                    name: "Margherita",
-                    description: "With cheese",
-                    imageName: "margherita"
-                ),
-                Pizza(
-                    name: "Pepperoni",
-                    description: "With pepperoni",
-                    imageName: "pepperoni"
-                )
-            ]
-    )
+    PizzaListView(pizzas: MockData.pizzas)
 }
