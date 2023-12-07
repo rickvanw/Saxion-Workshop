@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import SwiftUI
 
 struct Pizza: Identifiable {
     var id = UUID()

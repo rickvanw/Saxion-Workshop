@@ -5,7 +5,6 @@
 //  Created by Rick van Weersel on 05/12/2023.
 //
 
-import Foundation
 import SwiftUI
 
 struct PizzaDetailView: View {
