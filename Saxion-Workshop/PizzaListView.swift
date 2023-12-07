@@ -13,15 +13,19 @@ struct PizzaListView: View {
     var body: some View {
         NavigationView {
             List(pizzas) { pizza in
-                HStack {
-                    pizza.image
-                        .resizable()
-                        .frame(maxWidth: 50, maxHeight: 50)
-                        .clipShape(.circle)
-                    VStack(alignment: .leading) {
-                        Text(pizza.name)
-                        Text(pizza.description)
-                            .foregroundStyle(.secondary)
+                NavigationLink {
+                    PizzaDetailView(pizza: pizza)
+                } label: {
+                    HStack {
+                        pizza.image
+                            .resizable()
+                            .frame(maxWidth: 50, maxHeight: 50)
+                            .clipShape(.circle)
+                        VStack(alignment: .leading) {
+                            Text(pizza.name)
+                            Text(pizza.description)
+                                .foregroundStyle(.secondary)
+                        }
                     }
                 }
             }
