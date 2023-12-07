@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PizzaListView: View {
     var pizzas: [Pizza]
+    @State private var isAboutViewOpened = false
     
     var body: some View {
         NavigationView {
@@ -30,6 +31,14 @@ struct PizzaListView: View {
                 }
             }
             .navigationTitle("Pizza's")
+            .toolbar {
+                Button("About") {
+                    isAboutViewOpened.toggle()
+                }
+            }
+        }
+        .sheet(isPresented: $isAboutViewOpened) {
+            AboutView()
         }
     }
 }
