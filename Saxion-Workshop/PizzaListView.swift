@@ -47,8 +47,16 @@ struct PizzaListView: View {
     PizzaListView(
         pizzas:
             [
-                Pizza(name: "Margherita", description: "With cheese", imageName: "margherita"),
-                Pizza(name: "Pepperoni", description: "With pepperoni", imageName: "pepperoni")
+                Pizza(
+                    name: "Margherita",
+                    description: "With cheese",
+                    imageName: "margherita"
+                ),
+                Pizza(
+                    name: "Pepperoni",
+                    description: "With pepperoni",
+                    imageName: "pepperoni"
+                )
             ]
     )
 }
