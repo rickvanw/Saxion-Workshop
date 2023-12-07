@@ -18,7 +18,7 @@ struct PizzaListView: View {
                     PizzaDetailView(pizza: pizza)
                 } label: {
                     HStack {
-                        pizza.image
+                        Image(pizza.imageName)
                             .resizable()
                             .frame(maxWidth: 50, maxHeight: 50)
                             .clipShape(.circle)

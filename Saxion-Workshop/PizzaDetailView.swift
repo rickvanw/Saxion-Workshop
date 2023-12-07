@@ -17,7 +17,7 @@ struct PizzaDetailView: View {
                 Image("background")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                pizza.image
+                Image(pizza.imageName)
                     .resizable()
                     .frame(width: 160, height: 160)
                     .aspectRatio(contentMode: .fit)
