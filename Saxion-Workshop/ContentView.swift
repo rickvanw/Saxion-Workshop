@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let pizzas = [
+        Pizza(name: "Margherita", description: "With cheese", imageName: "margherita"),
+        Pizza(name: "Pepperoni", description: "With pepperoni", imageName: "pepperoni")
+    ]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        PizzaListView(pizzas: pizzas)
     }
 }
 

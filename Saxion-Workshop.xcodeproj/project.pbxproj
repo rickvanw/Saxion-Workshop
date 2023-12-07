@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B6560E22B1F69D70095244D /* PizzaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6560E12B1F69D70095244D /* PizzaListView.swift */; };
+		4B6560E42B1F6B330095244D /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6560E32B1F6B330095244D /* Pizza.swift */; };
+		4B6560E62B1F744C0095244D /* PizzaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6560E52B1F744C0095244D /* PizzaDetailView.swift */; };
 		4B7A9A3C2B1F5CB200E64DD9 /* Saxion_WorkshopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A9A3B2B1F5CB200E64DD9 /* Saxion_WorkshopApp.swift */; };
 		4B7A9A3E2B1F5CB200E64DD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A9A3D2B1F5CB200E64DD9 /* ContentView.swift */; };
 		4B7A9A402B1F5CB300E64DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7A9A3F2B1F5CB300E64DD9 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B6560E12B1F69D70095244D /* PizzaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaListView.swift; sourceTree = "<group>"; };
+		4B6560E32B1F6B330095244D /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		4B6560E52B1F744C0095244D /* PizzaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailView.swift; sourceTree = "<group>"; };
 		4B7A9A382B1F5CB200E64DD9 /* Saxion-Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saxion-Workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7A9A3B2B1F5CB200E64DD9 /* Saxion_WorkshopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saxion_WorkshopApp.swift; sourceTree = "<group>"; };
 		4B7A9A3D2B1F5CB200E64DD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				4B7A9A3B2B1F5CB200E64DD9 /* Saxion_WorkshopApp.swift */,
 				4B7A9A3D2B1F5CB200E64DD9 /* ContentView.swift */,
+				4B6560E12B1F69D70095244D /* PizzaListView.swift */,
+				4B6560E52B1F744C0095244D /* PizzaDetailView.swift */,
+				4B6560E32B1F6B330095244D /* Pizza.swift */,
 				4B7A9A3F2B1F5CB300E64DD9 /* Assets.xcassets */,
 				4B7A9A412B1F5CB400E64DD9 /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6560E42B1F6B330095244D /* Pizza.swift in Sources */,
+				4B6560E22B1F69D70095244D /* PizzaListView.swift in Sources */,
+				4B6560E62B1F744C0095244D /* PizzaDetailView.swift in Sources */,
 				4B7A9A3E2B1F5CB200E64DD9 /* ContentView.swift in Sources */,
 				4B7A9A3C2B1F5CB200E64DD9 /* Saxion_WorkshopApp.swift in Sources */,
 			);
