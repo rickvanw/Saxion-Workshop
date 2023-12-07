@@ -44,5 +44,11 @@ struct PizzaDetailView: View {
 }
 
 #Preview {
-    PizzaDetailView(pizza: Pizza(name: "Margherita", description: "Pizza with cheese", imageName: "margherita"))
+    PizzaDetailView(
+        pizza: Pizza(
+            name: "Margherita",
+            description: "Pizza with cheese",
+            imageName: "margherita"
+        )
+    )
 }
