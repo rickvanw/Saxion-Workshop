@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "icon-pizza.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

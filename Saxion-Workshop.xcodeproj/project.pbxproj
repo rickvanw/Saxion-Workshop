@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B10C91D2B21FEB80042C3A8 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10C91C2B21FEB80042C3A8 /* AboutView.swift */; };
 		4B6560E22B1F69D70095244D /* PizzaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6560E12B1F69D70095244D /* PizzaListView.swift */; };
 		4B6560E42B1F6B330095244D /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6560E32B1F6B330095244D /* Pizza.swift */; };
 		4B6560E62B1F744C0095244D /* PizzaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6560E52B1F744C0095244D /* PizzaDetailView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B10C91C2B21FEB80042C3A8 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		4B6560E12B1F69D70095244D /* PizzaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaListView.swift; sourceTree = "<group>"; };
 		4B6560E32B1F6B330095244D /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		4B6560E52B1F744C0095244D /* PizzaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				4B7A9A3B2B1F5CB200E64DD9 /* Saxion_WorkshopApp.swift */,
+				4B10C91C2B21FEB80042C3A8 /* AboutView.swift */,
 				4B7A9A3D2B1F5CB200E64DD9 /* ContentView.swift */,
 				4B6560E12B1F69D70095244D /* PizzaListView.swift */,
 				4B6560E52B1F744C0095244D /* PizzaDetailView.swift */,
@@ -150,6 +153,7 @@
 				4B6560E22B1F69D70095244D /* PizzaListView.swift in Sources */,
 				4B6560E62B1F744C0095244D /* PizzaDetailView.swift in Sources */,
 				4B7A9A3E2B1F5CB200E64DD9 /* ContentView.swift in Sources */,
+				4B10C91D2B21FEB80042C3A8 /* AboutView.swift in Sources */,
 				4B7A9A3C2B1F5CB200E64DD9 /* Saxion_WorkshopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				DEVELOPMENT_TEAM = 63D3S34CPT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pizza App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +321,7 @@
 				DEVELOPMENT_TEAM = 63D3S34CPT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pizza App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
