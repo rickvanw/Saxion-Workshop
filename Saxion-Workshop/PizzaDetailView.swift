@@ -32,6 +32,8 @@ struct PizzaDetailView: View {
                 Text(pizza.description)
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
+                Divider()
+                Text(pizza.longdescription)
             }
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
