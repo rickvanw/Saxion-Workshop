@@ -11,6 +11,6 @@ struct Pizza: Identifiable {
     var id = UUID()
     var name: String
     var description: String
-    var longdescription: String
+    var longDescription: String
     var imageName: String
 }
