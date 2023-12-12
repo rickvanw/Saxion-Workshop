@@ -12,7 +12,7 @@ struct PizzaListView: View {
     @State private var isAboutViewOpened = false
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List(pizzas) { pizza in
                 NavigationLink {
                     PizzaDetailView(pizza: pizza)
